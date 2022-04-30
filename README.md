@@ -2,7 +2,7 @@
 
 **30/04/2022 e 05/05/2022**
 
-Board para escrever dúvidas/ comentários em aula: **TBD**
+Board para escrever dúvidas/ comentários em aula: [DontPad](http://dontpad.com/On17-TodasEmTech-LogicaeJS)
 
 ## Objetivo
 
