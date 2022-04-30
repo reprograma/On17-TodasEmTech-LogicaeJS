@@ -9,12 +9,15 @@ console.log(`Olá, mundo!`);
 
 // 2. Crie uma variável que armazene seu nome
 const nome = "Mariana";
+console.log("Meu nome é " + nome);
 
 // 3. Crie uma variável que armazene o ano de seu nascimento
 const anoNascimento = 1990;
+console.log("Nasci no ano: " + anoNascimento);
 
 // 4. Crie uma variável que indique se hoje foi seu primeiro contato com javascript
 const primeiroContatoJavascript = false;
+console.log("Hoje é o meu primeiro contato com JavaScript? " + primeiroContatoJavascript);
 
 // 5. Imprima, no console, seu nome, o ano de seu nascimento
 //e se já teve contato com javascript (usando as variáveis criadas acima!)
@@ -28,6 +31,7 @@ console.log(typeof primeiroContatoJavascript);
 // 7. Crie uma variável sem nenhum valor atribuído e imprima seu valor e seu tipo no console
 let variavel; //undefined
 console.log(variavel);
+console.log(typeof variavel);
 
 // 8. Crie uma variável inicializada com o valor nulo e imprima seu valor e seu tipo no console
 let nula = null;
