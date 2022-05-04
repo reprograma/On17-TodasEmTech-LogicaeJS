@@ -9,3 +9,12 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+let user = prompt("Digite o seu usuário: ");
+let password = Number(prompt("Digite a sua senha:"));
+
+if (user === "izadora" || password === 123456) {
+  alert(`Bom dia ${user}`);
+} else {
+  alert(`${user} Seu user ou senha está errada. Tente novamente!`);
+}
