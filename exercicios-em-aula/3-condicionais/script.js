@@ -24,6 +24,18 @@
 
 let letraEscolhida = prompt("insira uma letra qualquer do alfabeto").toLowerCase();
 
+if(letraEscolhida === "a" || letraEscolhida === "e" || letraEscolhida === "i" || letraEscolhida === "o" || letraEscolhida === "u"){
+  console.log("existe uma vogal");
+
+}else{
+  console.log("não existe vogal");
+}
+
+switch(letraEscolhida){
+  
+}
+
+
 // 
 
 /* 
