@@ -9,3 +9,12 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+let userName = prompt('Digite seu nome');
+console.log(userName);
+let password = prompt('Digite sua senha');
+console.log(password);
+ if (userName && password){
+   alert('Bom dia ' + userName);
+ } else {
+   alert('Usuário ou senha incorretos')
+ }
