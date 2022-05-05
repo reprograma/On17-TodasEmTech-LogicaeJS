@@ -9,3 +9,17 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+let login = "Larissa Oliveira";
+prompt("nome do usuário");
+console.log(login);
+
+let senha = 12345;
+Number(prompt(" digite sua senha"));
+console.log(senha);
+
+if (login === "Larissa Oliveira" || senha === 12345) {
+  alert("Bom dia");
+} else {
+  alert("credenciais invalidas!");
+}

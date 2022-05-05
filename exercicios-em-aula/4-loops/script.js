@@ -16,6 +16,9 @@
   inclusive esses 2
 */
 
+
+
+
 /* 
   2. Utilizando a estrutura de repetição for, mostre no console apenas os números pares de 1 ao 50.
   - Números pares são todos os números que divididos por 2 tem resto 0
