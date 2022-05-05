@@ -9,3 +9,16 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+
+function logar() {
+
+  var login = document.getElementById('login').value;
+  var senha = document.getElementById('senha').value;
+
+  if(login == "admin" && senha == "admin"){
+    alert('Bom dia!');
+  }else{
+    alert('Usúario ou senha incorretos')
+  }
+}
