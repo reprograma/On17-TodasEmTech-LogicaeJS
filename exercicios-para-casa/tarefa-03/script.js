@@ -6,3 +6,10 @@
       - caso seja, informe na tela que ela pode comprar bebidas;
       - caso contrário, informe que você não está autorizada a vender álcool para menores.
  */
+
+      let anoNascimento = Number(prompt("Digite aqui o ano do seu nascimento."));
+      if (anoNascimento < 2004 ){
+        alert("Você pode comprar a bebida! :D ")
+      } else{
+        alert("Você não tem idade pra comprar bebidas. :( ")
+      }
