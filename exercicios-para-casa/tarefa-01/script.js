@@ -9,3 +9,18 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+const nomeUsuario = "Tamires Cristina";
+const senhaUsuario = "tamires123";
+
+const validarNomeUsuario = prompt("Digite seu nome");
+const validarSenhaUsuario = prompt("Digite sua senha");
+
+if (
+  nomeUsuario === validarNomeUsuario &&
+  senhaUsuario === validarSenhaUsuario
+) {
+  window.alert("Bom dia!");
+} else {
+  window.alert("Dados incorretos !");
+}
