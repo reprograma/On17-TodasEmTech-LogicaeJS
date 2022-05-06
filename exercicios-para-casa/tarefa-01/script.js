@@ -9,3 +9,16 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+let usuario = "usuario123";
+let senha = "123456abcd";
+
+let nome = prompt(`Qual o seu nome?`);
+let usuarioLogin = prompt(`Digite seu usuario cadastrado: `);
+let senhaLogin = prompt(`Digite sua senha cadastrada: `);
+
+if(usuarioLogin===usuario && senhaLogin===senha){
+  console.log(`Bom dia, ${nome}, seja bem-vinda!`);
+}else{
+  console.log(`Usuário e/ou senha digitados estão incorretos, tente novamente ou solicite o reset da senha.`);
+}

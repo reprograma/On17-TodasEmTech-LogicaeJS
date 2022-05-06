@@ -37,3 +37,4 @@ console.log(typeof variavel);
 let nula = null;
 console.log(nula);
 console.log(typeof nula);
+
