@@ -9,7 +9,9 @@
 
 let nascimento = Number(prompt("Qual ano você nasceu?"));
 
-let idadeCalculada = 2022 - nascimento;
+let anoAtual = new Date().getFullYear();
+
+let idadeCalculada = anoAtual - nascimento;
 
 if (idadeCalculada >= 18) {
   alert("Você pode comprar bebidas");

@@ -1,4 +1,4 @@
-/**
+/*
     Tarefa 01
 
     1. Crie duas variáveis para armazenar o nome de usuário e a senha dentro do script;

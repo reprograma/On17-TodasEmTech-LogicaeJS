@@ -11,4 +11,4 @@ for (let i = 1; i <= 10; i++) {
   totalPreços += parseFloat(prompt(`Preço do produto ${i}: `));
 }
 
-alert(`O total da compra é: R$${totalPreços.toFixed(2)}`);
+alert(`Total da compra: ${totalPreços.toFixed(2)}`);

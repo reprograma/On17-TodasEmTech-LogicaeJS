@@ -14,7 +14,7 @@ let mercadoriaComDesconto =
   precoMercadoria - (precoMercadoria * descontoMercadoria) / 100;
 
 alert(
-  `valor da mercadoria com desconto é  R$ ${mercadoriaComDesconto.toFixed(2)}`
+  ` Valor da mercadoria com desconto: ${mercadoriaComDesconto.toFixed(2)}`
 );
 
 let quantiaEconomizada = precoMercadoria - mercadoriaComDesconto;
