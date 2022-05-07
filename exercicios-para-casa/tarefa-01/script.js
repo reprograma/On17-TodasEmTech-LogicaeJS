@@ -9,3 +9,14 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+ let nomeUsuário = "Gabriella"
+ let nomeSenha = "1234"
+
+ let usuarioSenha = String(prompt("coloque seu usuario"));
+ let senhaUsuario = String(prompt("coloque sua senha"));
+
+ if (nomeUsuário === usuarioSenha && senhaUsuario === nomeSenha) {
+   alert("Bom Dia!") 
+ } else {
+   alert("usuario ou senha errado")
+ }
