@@ -9,3 +9,15 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+let nome = "Emanuelly";
+let senha = "24091197";
+
+let nomeUsuario = prompt("Por favor, digite seu nome:");
+
+let senhaUsuario = prompt("Por favor, digite sua senha:");
+
+if (nomeUsuario === nome && senhaUsuario === senha) {
+  alert("Bom dia! ${nome}");
+} else {
+  alert("Suas informações estão erradas!");
+}
