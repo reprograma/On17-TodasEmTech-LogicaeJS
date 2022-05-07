@@ -9,3 +9,15 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+      let validName = "Nathália";
+      let validPassword = "senhacorreta"
+      
+      let name = String(prompt("Informe seu nome: "))
+      let password = String(prompt("Informe sua senha: "))
+      
+      if(name === validName && password === validPassword) {
+        alert(`Bom dia, ${name}!`)
+      } else {
+        alert(`credenciais incorreta! `)
+      }      
