@@ -124,7 +124,6 @@ alert("Você está de recuperação!");
   alert("Que pena, você foi reprovado.");
 }
 
-
 /*
  5. Crie um algoritmo que receba dois números e some todos os números
     começados no primeiro e terminados no segundo

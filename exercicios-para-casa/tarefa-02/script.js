@@ -15,7 +15,7 @@ let desconto = Number (prompt("qual é o percentual de desconto da mercadoria?")
 
 // 3. Informe ao usuário o valor da mercadoria após o desconto;
 let preçoDesconto = (preço - (preço * desconto) / 100);
-alert( "O valor da mercadoria com desconto é " + preçoDesconto);
+alert(`O valor da mercadoria com desconto é ${preçoDesconto.toFixed(2)}`);
 
-let economia = (preço * (desconto/ 100)) ;
-alert("Você economizou " + economia + " reais por conta do desconto" );
+let economia = preço - preçoDesconto;
+alert("Você economizou " + economia + " reais por conta do desconto");

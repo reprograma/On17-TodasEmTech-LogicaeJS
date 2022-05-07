@@ -13,6 +13,6 @@ const idade = (2022 - anoDeNascimento);
 
 if (idade >= 18) {
   alert("Você pode comprar bebidas");
-} else if (idade < 18) {
+} else {
   alert("não estamos altorizados a vender bebidas alcoolica para menores de idade");
 }
