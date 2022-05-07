@@ -13,9 +13,16 @@
 
 
 // 1. Receba dois números por meio do prompt
+const num1 = Number (prompt("Insira seu número"))
+const num2 = Number (prompt("Insira seu número"))
+console.log(num1);
+console.log(num2);
+
 
 
 // 2. Informe na tela a soma desses números
+let soma = num1 + num2;
+alert("Número")
 
 
 // 3. Informe o resultado da subtração desses números
