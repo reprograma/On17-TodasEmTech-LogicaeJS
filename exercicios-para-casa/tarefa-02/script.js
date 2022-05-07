@@ -6,3 +6,7 @@
     3. Informe ao usuário o valor da mercadoria após o desconto;
     4. Informe ao usuário qual quantia foi economizada por conta do desconto.
  */
+// Respostas
+// 1. 
+let aNumber = 30;
+// 2.

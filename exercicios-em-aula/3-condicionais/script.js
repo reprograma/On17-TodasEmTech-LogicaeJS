@@ -23,6 +23,30 @@
 */
 
 let letraEscolhida = prompt("insira uma letra qualquer do alfabeto").toLowerCase();
+if (letraEscolhida === 'a'){
+  console.logo('essa letra é uma vogal');
+} else if(letraEscolhida === 'e'){
+  console.log ('essa letra é uma vogal');
+} else if (letraEscolhida === 'i'){
+  console.log('essa letra é uma vogal');
+} else if(letraEscolhida === 'o'){
+  console.log('essa letra é uma vogal');
+} else if(letraEscolhida === 'u'){
+  console.log('essa letra é uma vogal');
+} else {
+  console.log('essa letra não é uma vogal');
+}
+
+switch (letraEscolhida) {
+  case 'a':
+  case'e':
+  case 'i':
+  case 'o':
+  case 'u':
+    alert('é uma vogal');
+    break;
+  default ("não é uma vogal");
+}
 
 // 
 
@@ -32,9 +56,44 @@ let letraEscolhida = prompt("insira uma letra qualquer do alfabeto").toLowerCase
 
 let numeroEscolhido = prompt("Insira um numero de 1-7");
 
+switch (numeroEscolhido){
+  case '1':
+    console.log('segunda');
+    break;
+  case '2':
+    console.logo('terça');
+    break;
+  case '3':
+    console.log('quarta');
+    break;
+  case '4':
+    console.log('quinta');
+    break;
+  case '5':
+    console.log('sexta');
+    break;
+  case '6':
+    console.log('sábado');
+    break;
+  case '7':
+    console.log('domingo');
+    break;
+  }
+
 /* 
   3. Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se ambos os números forem iguais, mostre uma mensagem no console "Os números são iguais";
 */
+const num1 = Number(prompt("insira um número"));
+const num2 = Number(prompt("insira outro número"));
+
+if (num1 > num2) {
+  alert(num1);
+} else if (num2 > num1) {
+  alert(num2);
+} else {
+  console.log("Os números são iguais")
+}
+
 
 
 /*
@@ -49,6 +108,19 @@ let numeroEscolhido = prompt("Insira um numero de 1-7");
     Alunos de recuperação devem ver a mensagem: Você está de recuperação!
     Alunos reprovados devem ver a mensagem: Que pena, você foi reprovado.
 */
+const nota1 = Number(prompt("Insira a primeira nota"));
+const nota2 = Number(prompt("Insira a primeira nota"));
+const nota3 = Number(prompt("Insira a primeira nota"));
+
+let media = (nota1 + nota2 + nota3) / 3;
+if (media >= 7) {
+  alert("Parabéns, você foi aprovado, aproveite suas férias!");
+} else if(media >= 5 && media < 7) {
+  alert("você está de recuperação!")
+} else {
+  alert("Que pena, você foi reprovado.");
+}
+
 
 /*
  5. Crie um algoritmo que receba dois números e some todos os números
