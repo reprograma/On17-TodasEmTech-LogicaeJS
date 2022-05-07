@@ -9,3 +9,20 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+//Respostas
+// 1.
+let Name = "Nome do usuário"
+console.log (Name);
+let passoword = "Senha"
+console.log (passoword);
+// 2.
+let information = prompt("Qual o seu nome?");
+// 3.
+let digitarSenha = prompt("Digite a sua senha utilizando apenas caracteres numéricos");
+// 4.
+if (nome === 'Benja'){
+  alert('Bom dia!');
+} else if(nome != 'Benja'){
+  alert('usuário não encontrado');
+}
