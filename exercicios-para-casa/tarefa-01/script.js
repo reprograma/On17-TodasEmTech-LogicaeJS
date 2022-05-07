@@ -9,3 +9,16 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+
+const userName = "nicolle"
+const passWord = "pwd123"
+
+let checkName = prompt("Por favor, digite o seu nome: ");
+let checkPass = prompt("Por favor, digite a sua senha:");
+
+if (checkName != userName || checkPass != passWord) {
+  alert("Usuário e/ou senha incorretos, atualize a página e tente novamente.");
+} else {
+  alert("Bom dia!");
+}
