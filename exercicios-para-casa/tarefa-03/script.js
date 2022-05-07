@@ -6,3 +6,11 @@
       - caso seja, informe na tela que ela pode comprar bebidas;
       - caso contrário, informe que você não está autorizada a vender álcool para menores.
  */
+
+
+let anoNasc = Number(prompt("informe seu ano de nascimento: "));
+let anoAtual = new Date();
+let idade = anoAtual.getFullYear() - anoNasc;
+idade>=18;
+console.log("Autorizado a comprar bebidas!");
+console.log("Não autorizado vender bebidas alcoólicas a menores!");

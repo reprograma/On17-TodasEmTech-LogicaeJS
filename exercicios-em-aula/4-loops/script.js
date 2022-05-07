@@ -22,6 +22,12 @@
   - Qual operador que retorna o resto da divisão? Vamos usar ele!
 */
 
+for (let i = 1; i <= 50; i++){
+  if (1%2 ===0){
+    console.log(i)
+  }
+}
+
 /*
   3. Crie um algoritmo que receba dois números e some todos os números
     começados no primeiro e terminados no segundo
