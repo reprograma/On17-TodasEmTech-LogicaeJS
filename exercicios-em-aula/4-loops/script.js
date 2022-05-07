@@ -15,12 +15,22 @@
   1. Utilizando a estrutura de repetição for, mostre no console todos números 0 ao 100,
   inclusive esses 2
 */
+for (let i = 0; i <= 100; i++) {
+  console.log(i)
+}
+
 
 /* 
   2. Utilizando a estrutura de repetição for, mostre no console apenas os números pares de 1 ao 50.
   - Números pares são todos os números que divididos por 2 tem resto 0
   - Qual operador que retorna o resto da divisão? Vamos usar ele!
 */
+for (let i = 1; i <= 50; i++) {
+}  if (i % 2 === 0) {
+console.log(i)
+  }
+
+
 
 /*
   3. Crie um algoritmo que receba dois números e some todos os números
