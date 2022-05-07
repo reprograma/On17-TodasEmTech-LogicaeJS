@@ -14,7 +14,7 @@ let anoAtual = new Date().getFullYear();
 let idadeCalculada = anoAtual - nascimento;
 
 if (idadeCalculada >= 18) {
-  alert("Você pode comprar bebidas");
+  alert("Você pode comprar bebidas!");
 } else {
-  alert("Não estou autorizado a vender bebidas para menores de 18 anos");
+  alert("Não estou autorizado a vender bebidas para menores de 18 anos.");
 }

@@ -6,8 +6,8 @@
     3. Exiba uma mensagem com o valor do troco.
  */
 
-let dinheiroCliente = parseFloat(prompt("Quantia dada pelo cliente: "));
-let totalConta = parseFloat(prompt("Total da compra: "));
+let dinheiroCliente = parseFloat(prompt("Quantia dada pelo cliente:"));
+let totalConta = parseFloat(prompt("Total da compra:"));
 let troco = dinheiroCliente - totalConta;
 
 alert(`

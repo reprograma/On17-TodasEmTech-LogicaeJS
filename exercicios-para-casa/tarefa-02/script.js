@@ -13,10 +13,8 @@ let percentualDesconto = parseFloat(prompt("Insira o percentual de desconto:"));
 let mercadoriaComDesconto =
   precoMercadoria - (precoMercadoria * descontoMercadoria) / 100;
 
-alert(
-  ` Valor da mercadoria com desconto: ${mercadoriaComDesconto.toFixed(2)}`
-);
+alert(` Valor da mercadoria com desconto: ${mercadoriaComDesconto.toFixed(2)}`);
 
 let quantiaEconomizada = precoMercadoria - mercadoriaComDesconto;
 
-alert(`Você economizou R$ ${quantiaEconomizada.toFixed(2)}`);
+alert(`Valor economizado: ${quantiaEconomizada.toFixed(2)}`);
