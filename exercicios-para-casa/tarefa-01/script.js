@@ -9,3 +9,24 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+// 1-
+
+      let usuario = null;
+      let senha = null;
+
+// 2- 
+
+      usuario = prompt("insira seu usuário");
+
+// 3-
+
+      senha = prompt("insira sua senha");
+
+// 4-
+
+      if (usuario == "xoxica" && senha == "123lol") {
+        alert("Bom dia!");
+      } else {
+        alert("Suas credenciais não são válidas");
+      }

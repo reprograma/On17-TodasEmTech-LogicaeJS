@@ -6,13 +6,16 @@
 
 
 // 1. Crie uma variável que armazene a mensagem "Olá, Mundo!" e a imprima no console
-
+let message = "Olá Mundo!"
+console.log(message)
 
 // 2. Crie uma variável que armazene seu nome
-
+let myName = "Shayanne"
+console.log(myName)
 
 // 3. Crie uma variável que armazene o ano de seu nascimento
-
+const year = "1992"
+console.log (year)
 
 // 4. Crie uma variável que indique se hoje foi seu primeiro contato com javascript
 
