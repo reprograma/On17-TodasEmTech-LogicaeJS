@@ -14,11 +14,10 @@ let nome = "Bárbara";
 let senha = "123456";
 
 let nomeUsuario = prompt("Digite seu nome:");
-
 let senhaUsuario = prompt("digite sua senha");
 
 if (nomeUsuario === nome && senhaUsuario === senha) {
-  alert(`Bom dia! ${nome}`);
+  alert(`Bom dia ${nome}!`);
 } else {
   alert("Suas crendencias estão erradas");
 }

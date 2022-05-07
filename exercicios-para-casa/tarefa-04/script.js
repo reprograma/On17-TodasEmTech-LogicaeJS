@@ -5,10 +5,10 @@
     2. Mostre na tela a soma de todos os preços.
  */
 
-let i = 0;
-let totalPreços = 0
-for (let i = 1; i < 10; i++) {
-  let preco = parseFloat(prompt(`Preço do produto ${i+1}: `));
-  totalPreços += preco;
+let totalPreços = 0;
+
+for (let i = 1; i <= 10; i++) {
+  totalPreços += parseFloat(prompt(`Preço do produto ${i}: `));
 }
+
 alert(`O total da compra é: R$${totalPreços.toFixed(2)}`);

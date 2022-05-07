@@ -7,11 +7,10 @@
  */
 
 let quantidadeItens = parseInt(prompt("Qual a quantidade de itens na compra?"));
-
-let i = 0;
 let totalPreços = 0;
+
 for (let i = 1; i <= quantidadeItens; i++) {
-  let preco = parseFloat(prompt(`Preço do produto ${i + 1}: `));
-  totalPreços += preco;
+  totalPreços += parseFloat(prompt(`Preço do produto ${i}: `));;
 }
+
 alert(`O total da compra é: R$${totalPreços.toFixed(2)}`);

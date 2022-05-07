@@ -10,7 +10,8 @@ let dinheiroCliente = parseFloat(prompt("Quantia dada pelo cliente: "));
 let totalConta = parseFloat(prompt("Total da compra: "));
 let troco = dinheiroCliente - totalConta;
 
-alert(`Dinheiro dado pelo cliente é ${dinheiroCliente.toFixed(
-  2
-)}, total da conta é ${totalConta.toFixed(2)} e o valor do troco será 
-${troco.toFixed(2)}`);
+alert(`
+Dinheiro dado pelo cliente: ${dinheiroCliente.toFixed(2)}
+Total da conta: ${totalConta.toFixed(2)}
+Valor do troco: ${troco.toFixed(2)}
+`);
