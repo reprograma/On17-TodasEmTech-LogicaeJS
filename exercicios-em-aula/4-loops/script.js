@@ -16,12 +16,13 @@
   inclusive esses 2
 */
 
+
 /* 
   2. Utilizando a estrutura de repetição for, mostre no console apenas os números pares de 1 ao 50.
   - Números pares são todos os números que divididos por 2 tem resto 0
   - Qual operador que retorna o resto da divisão? Vamos usar ele!
 */
-
+for (let 1)
 /*
   3. Crie um algoritmo que receba dois números e some todos os números
     começados no primeiro e terminados no segundo
@@ -32,3 +33,7 @@
         se os números informados forem 2 e 7, seu programa deve retornar 27,
         pois 2 + 3 + 4 + 5 + 6 + 7 = 27
 */
+let soma = 0;
+for (let i=1; i<=10; 1++) {
+  soma <=i;
+}
