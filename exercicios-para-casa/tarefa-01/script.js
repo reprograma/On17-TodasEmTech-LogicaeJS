@@ -9,3 +9,15 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+var nome = prompt('Digite seu nome: ');
+var senha = prompt('Digite sua senha: ');
+
+var nomeUsuario = prompt('Confirme seu nome:');
+var senhaUsuario = prompt('Confirme sua senha');
+
+if (nomeUsuario == nome && senhaUsuario == senha) {
+  alert('Bom dia!');
+} else {
+  alert('Nome ou senha inválidos');
+}
