@@ -9,3 +9,21 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+      let user = "Mariana"
+      let pin = "12345"
+
+      let userName = prompt("Insira seu nome de usuário");
+      let userPin = prompt("Insira sua senha");
+
+      console.log(userName);
+      console.log(userPin);
+
+      if(user === userName && pin === userPin) {
+        alert("Bom dia")
+      }
+      else{
+        alert("Nome ou senha incorretos!")
+      }
+
+
