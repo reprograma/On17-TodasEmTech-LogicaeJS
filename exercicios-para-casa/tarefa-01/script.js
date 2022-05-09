@@ -9,3 +9,14 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+let login = "Ellie";
+let password = "0921";
+
+let loginUsuario = prompt("nome do usuário");
+let passwordUsuario = prompt("password");
+
+if (login === loginUsuario && password === passwordUsuario) {
+  alert(`Ola gatissima ${login}!`);
+} else {
+  alert(`Login ou Password estão incorretod`);
+}
