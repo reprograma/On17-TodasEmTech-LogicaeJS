@@ -6,3 +6,14 @@
     3. Informe ao usuário o valor da mercadoria após o desconto;
     4. Informe ao usuário qual quantia foi economizada por conta do desconto.
  */
+
+let solicitarPreco = parseFloat(prompt(`Solicite preço da mercadoria`));
+alert(`O preço da mercadoria é ${solicitarPreco} `);
+
+let descontoPercentualMercadoria = parseInt(prompt(`solicite um desconto`));
+
+let valorMercadoriaDesconto = solicitarPreco - (solicitarPreco * descontoPercentualMercadoria) / 100;
+alert(`valor da mercadoria com desconto é  R$ ${valorMercadoriaDesconto.toFixed(2)}`);
+
+let quantiaEconomizada = solicitarPreco - valorMercadoriaDesconto;
+alert(`Você economizou R$ ${quantiaEconomizada.toFixed(2)}`);
