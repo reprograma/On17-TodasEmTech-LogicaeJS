@@ -122,7 +122,7 @@ switch (numeroEscolhido) {
     alert("É Quintonho");
     break;
   case "6":
-    alert("É Sesksu");
+    alert("É Sees");
     break;
   case "7":
     alert("É Sambonha");
@@ -142,11 +142,9 @@ let mensagem;
 if (numero1 == numero2) {
   mensagem = "São numeros iguais";
 } else if (numero1 > numero2) {
-  mensagem = numero1 + "é maior que" + numero2; //estou tendo problema dar alert  e falar que um numero é mior que outro
-} else if (numero1 < numero2) {
-  (mensagem = numero2), "é maior que", numero1;
+  mensagem = `${numero1} é maior que ${numero2}`;
 } else {
-  mensagem = "vc nao colocou um numero";
+  mensagem = `${numero2} é maior que ${numero1}`;
 }
 
 alert(mensagem);
@@ -168,15 +166,12 @@ let nota1 = Number(prompt("coloque sua nota de matematica")); //5
 let nota2 = Number(prompt("coloque usa nota de portugues")); //8
 let nota3 = Number(prompt("coloque sua nota de fisica")); //7
 
-let soma = nota1 + nota2 + nota3;
-console.log(soma);
-
-let media = soma / 3;
+let media = (nota1 + nota2 + nota3) / 3;
 console.log(media);
 
 if (media >= 7.0) {
   alert("Aprovado");
-} else if ((media >= 5.0, media <= 7.0)) {
+} else if (media <= 7.0 && media >= 5.0) {
   alert("Recuperação");
 } else if (media <= 4.0) {
   alert("Reprovado");
@@ -197,20 +192,28 @@ if (media >= 7.0) {
 
 let num1 = Number(prompt("Escolha algum numero"));
 let num2 = Number(prompt("Escolha outro numero"));
-let numeros = 0;
 
 if (num1 > num2) {
   const amigo = num1;
   num1 = num2;
   num2 = amigo;
 }
+soma = 0;
 
-for (let index = num1; index <= num2; index++) {
-  numeros += index;
+for (let contador = num1; contador <= num2; contador++) {
+  soma += contador;
 }
 
-alert(`a soma de todos os numeros entre ${num1} e ${num2} é ${numeros}`);
+let contador = num1;
 
-// alert(
-//   "a soma de todos os numeros entre " + num1 + " e " + num2 + " é " + numeros
-// );
+while (contador <= num2) {
+  soma += contador;
+  contador++;
+}
+
+do {
+  soma += contador;
+  contador++;
+} while (contador <= num2);
+
+alert(`a soma de todos os numeros entre ${num1} e ${num2} é ${soma}`);
