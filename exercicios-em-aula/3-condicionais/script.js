@@ -23,6 +23,7 @@
 */
 
 let letraEscolhida = prompt("insira uma letra qualquer do alfabeto").toLowerCase();
+if letraEscolhida 
 
 // 
 
