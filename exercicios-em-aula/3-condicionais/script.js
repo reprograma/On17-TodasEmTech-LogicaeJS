@@ -194,3 +194,23 @@ if (media >= 7.0) {
         se os números informados forem 2 e 7, seu programa deve retornar 27,
         pois 2 + 3 + 4 + 5 + 6 + 7 = 27
 */
+
+let num1 = Number(prompt("Escolha algum numero"));
+let num2 = Number(prompt("Escolha outro numero"));
+let numeros = 0;
+
+if (num1 > num2) {
+  const amigo = num1;
+  num1 = num2;
+  num2 = amigo;
+}
+
+for (let index = num1; index <= num2; index++) {
+  numeros += index;
+}
+
+alert(`a soma de todos os numeros entre ${num1} e ${num2} é ${numeros}`);
+
+// alert(
+//   "a soma de todos os numeros entre " + num1 + " e " + num2 + " é " + numeros
+// );
