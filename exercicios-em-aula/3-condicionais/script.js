@@ -6,25 +6,47 @@
     
     if...else
     https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else
-
     Switch
     https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/switch
-
     For
     https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for
-
     While
     https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while
  */
-
 
 /* 
   1. Elabore um algoritmo que receba uma letra e determine se é uma vogal ou consoante (Faça duas versões deste código, uma utilizando if-else e outra utilizando switch-case);
 */
 
-let letraEscolhida = prompt("insira uma letra qualquer do alfabeto").toLowerCase();
+let letraEscolhida = prompt(
+  "insira uma letra qualquer do alfabeto"
+).toLowerCase();
 
-// 
+if (
+  letraEscolhida == "a" ||
+  letraEscolhida == "e" ||
+  letraEscolhida == "i" ||
+  letraEscolhida == "o" ||
+  letraEscolhida == "u"
+) {
+  alert(`${letraEscolhida} é vogal`);
+} else {
+  alert(`${letraEscolhida} é consoante`);
+}
+
+switch (letraEscolhida) {
+  case "a":
+  case "e":
+  case "i":
+  case "o":
+  case "u":
+    alert("é uma vogal");
+    break;
+  default:
+    alert("é uma consoante");
+}
+
+//
 
 /* 
   2. Elabore um algoritmo que receba um número (1-7) e devolva o dia da semana correspondente;
@@ -32,10 +54,46 @@ let letraEscolhida = prompt("insira uma letra qualquer do alfabeto").toLowerCase
 
 let numeroEscolhido = prompt("Insira um numero de 1-7");
 
+switch (numeroEscolhido) {
+  case "1":
+    alert("Domingo");
+    break;
+  case "2":
+    alert("Segunda");
+    break;
+  case "3":
+    alert("Terça");
+    break;
+  case "4":
+    alert("Quarta");
+    break;
+  case "5":
+    alert("Quinta");
+    break;
+  case "6":
+    alert("Sexta");
+    break;
+  case "7":
+    alert("Sábado");
+    break;
+  default:
+    alert("valor inválido, tente novamente");
+}
+
 /* 
   3. Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se ambos os números forem iguais, mostre uma mensagem no console "Os números são iguais";
 */
 
+const num1 = Number(prompt("Primeiro Número"));
+const num2 = Number(prompt("Segundo Número"));
+
+if (num1 > num2) {
+  alert(`${num1} é maior que ${num2}`);
+} else if (num1 < num2) {
+  alert(`${num1} é menor que ${num2}`);
+} else {
+  alert(`Os número são iguais`);
+}
 
 /*
   4. Crie um algoritmo que receba três notas de um aluno, calcule sua média
@@ -50,13 +108,15 @@ let numeroEscolhido = prompt("Insira um numero de 1-7");
     Alunos reprovados devem ver a mensagem: Que pena, você foi reprovado.
 */
 
-/*
- 5. Crie um algoritmo que receba dois números e some todos os números
-    começados no primeiro e terminados no segundo
+const nota1aluno = Number(prompt("Nota 1 do aluno:"));
+const nota2aluno = Number(prompt("Nota 2 do aluno:"));
+const nota3aluno = Number(prompt("Nota 3 do aluno:"));
+const notaMedia = (nota1aluno + nota2aluno + nota3aluno) / 3;
 
-    Faça duas versões deste exercício: usando for e usando while
-
-    Exemplo:
-        se os números informados forem 2 e 7, seu programa deve retornar 27,
-        pois 2 + 3 + 4 + 5 + 6 + 7 = 27
-*/
+if (notaMedia >= 7) {
+  alert(`Parabéns, você foi aprovado, aproveite suas férias!`);
+} else if (notaMedia >= 5) {
+  alert(`Você está de recuperação!`);
+} else {
+  alert(`Que pena, você foi reprovado.`);
+}

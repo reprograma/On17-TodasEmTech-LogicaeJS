@@ -1,4 +1,4 @@
-/**
+/*
     Tarefa 01
 
     1. Crie duas variáveis para armazenar o nome de usuário e a senha dentro do script;
@@ -9,3 +9,15 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+let nome = "Bárbara";
+let senha = "123456";
+
+let nomeUsuario = prompt("Digite seu nome:");
+let senhaUsuario = prompt("Digite sua senha:");
+
+if (nomeUsuario === nome && senhaUsuario === senha) {
+  alert(`Bom dia ${nome}!`);
+} else {
+  alert("Suas crendencias estão erradas.");
+}

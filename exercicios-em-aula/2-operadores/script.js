@@ -11,23 +11,34 @@
     https://developer.mozilla.org/pt-BR/docs/Web/API/Window
  */
 
-
 // 1. Receba dois números por meio do prompt
 
+const num1 = Number(prompt("Insira um número"));
+const num2 = Number(prompt("Insira um número"));
+
+console.log(num1, num2);
 
 // 2. Informe na tela a soma desses números
 
+console.log(num1 + num2);
 
 // 3. Informe o resultado da subtração desses números
 
+console.log(num1 - num2);
 
 // 4. Informe o produto desses números
 
+console.log(num1 * num2);
 
 // 5. Receba dois números inteiros por meio do prompt
 
+num1 = parseFloat(prompt("digite um nº"));
+num2 = parseFloat(prompt("digite outro nº"));
 
 // 6. Informe o resultado da divisão do primeiro pelo segundo
 
+console.log(num1 / num2);
 
 // 7. Informe o resto da divisão do primeiro pelo segundo
+
+console.log(num1 % num2);
