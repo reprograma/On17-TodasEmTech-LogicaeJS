@@ -9,3 +9,15 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+      const userName = "laraof.dev";
+      const passWord = "batatinha123";
+      
+      let uName = prompt("Digite seu nome!");
+      let pWord = prompt("Digite sua senha!");
+      
+      if (uName === userName && passWord === pWord) {
+        alert("Bom dia! Seja bem vindo a página inicial.");
+      } else {
+        alert("Você digitou algo errado!");
+      }
