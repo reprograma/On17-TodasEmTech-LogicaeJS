@@ -9,3 +9,15 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+      const login = "juliana melo";
+      const password = "12345";
+
+      const loginPrompt = (prompt("login"));
+      const passwordPrompt = (prompt("password"));
+
+      if (login === loginPrompt && password === passwordPrompt) {
+          alert("bem-vindo(a)")
+      } else{
+           alert("dados incorretos, verifique novamente")
+      }
+      
