@@ -9,3 +9,31 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+
+      // 1. Crie duas variáveis para armazenar o nome de usuário e a senha dentro do script
+      const myName = "Lorenna Geovanna Resende"
+      console.log(myName)
+      const senha = "1234567"
+      console.log(senha)
+
+    //2. Use um `prompt` para pedir ao usuário seu nome e armazene o resultado numa variável;
+    const usuario =confirm(prompt("insira seu nome"))
+    console.log(usuario)
+  
+    // 3. Use outro `prompt` para pedir ao usuário sua senha e a armazene em outra variável;
+    const password =confirm(prompt("insira sua senha"))
+    console.log(password)
+
+    /** 4. Verifique se o nome de usuário e a senha estão corretos:
+    a. caso afirmativo, cumprimente o usuário com um `Bom dia!` por meio de um `alert`;
+      b. caso as credenciais estejam erradas, informe o usuário
+      (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
+      */
+   let nome =confirm('estão corretos?')
+   if(nome == true){
+     alert ('BOM DIA!');
+   } else{ (nome != true)
+     alert('crendenciais errada!Repita Novamente')
+   }
+
