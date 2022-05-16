@@ -6,10 +6,12 @@
 
 
 // 1. Crie uma variável que armazene a mensagem "Olá, Mundo!" e a imprima no console
-
+let.message= "olá mundo!"
+console.console.log(message)
 
 // 2. Crie uma variável que armazene seu nome
-
+let myName="Marcia"
+console.log(myName)
 
 // 3. Crie uma variável que armazene o ano de seu nascimento
 
