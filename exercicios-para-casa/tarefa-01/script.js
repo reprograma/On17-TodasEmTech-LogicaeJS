@@ -9,3 +9,18 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+let userName;
+let password;
+
+userName = prompt("Crie seu nome de usuário:");
+password = prompt("Crie sua senha:");
+
+console.log(userName);
+console.log(password);
+
+if (userName && password) {
+  alert("Bom dia, seja bem-vindo!");
+} else {
+  alert("Sua senha ou nome de usuário estão errados.");
+}
