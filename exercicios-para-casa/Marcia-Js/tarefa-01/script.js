@@ -10,17 +10,19 @@
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
 
-      
-      let validName = "Marcia";
-      let validPass = "senhavalida"
 
+     let validName = "Marcia";
+     let ValidPassword = "senha incorreta"
+     
+     
+     let name = String(prompt("Qual o seu email?"))
+     let password = String(prompt("Qual a sua senha?"))
 
-      let name= String(prompt("Qual o seu nome?:"))
-      let pass= String(prompt("Coloque sua senha?" ))
-      
-      if(name --- validName && password --- validPassword) {
-           alert("Bom dia ${validName}")
+     if(name === validName && password === ValidPassword) {
+       alert("Bom dia!");
       }else {
-       alert(" Dados incorretos!")    
+       alert("Dados invalidos"); 
       }
+
+
       
