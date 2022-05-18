@@ -13,9 +13,13 @@
 
 
 // 1. Receba dois números por meio do prompt
+let a = Numero(prompt("Digite o primeiro número"));
+let b = Numero(prompt("Digite o segundo número"));
 
 
 // 2. Informe na tela a soma desses números
+let soma = a + b;
+alert ('A soma é ${soma}') 
 
 
 // 3. Informe o resultado da subtração desses números
