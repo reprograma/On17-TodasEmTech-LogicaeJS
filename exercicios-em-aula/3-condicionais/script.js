@@ -24,17 +24,68 @@
 
 let letraEscolhida = prompt("insira uma letra qualquer do alfabeto").toLowerCase();
 
-// 
+if (letraEscolhida) === 'a' || letraEscolhida  === 'e'
+         || letraEscolhida  === 'i'  || letraEscolhida  === 'o'
+         || letraEscolhida  === 'u' {
+           console.log('essa letra é uma vogal');
+         } else {
+           console.log('essa letra não é uma vogal')
+         }
+
+         switch (letraEscolhida) {
+           case 'a':
+           case 'e':
+           case 'i':
+           case 'o':
+           case 'u':
+             alert('é uma vogal');
+             break;
+             default:
+               alert('não é vogal');
+
 
 /* 
   2. Elabore um algoritmo que receba um número (1-7) e devolva o dia da semana correspondente;
 */
 
 let numeroEscolhido = prompt("Insira um numero de 1-7");
+switch (numeroEscolhido) {
+case 1:
+   console.log('segunda');
+     break;
+   case 2:
+     console.log("quarta");
+     break
+   Case 4:
+   console.log("quinta");
+     break
+   Case 5:
+    console.log('sexta');
+     break;
+   Case 6:
+   console.log('sábado');
+     break
+   Case 7:
+   console.log('domingo');
+     break
+     default:
+       alert('não é uma vogal');
+
+}
 
 /* 
   3. Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se ambos os números forem iguais, mostre uma mensagem no console "Os números são iguais";
 */
+const num1 = Number (prompt ("insira um número"));
+const num2 = Number (prompt("Insira outro número"));
+
+if (num1>num2) {
+  alert (num1);
+}else if (num2>num1) {
+alert(num2)
+}else{
+  console.log ("Os números são iguais")
+}
 
 
 /*
@@ -49,6 +100,21 @@ let numeroEscolhido = prompt("Insira um numero de 1-7");
     Alunos de recuperação devem ver a mensagem: Você está de recuperação!
     Alunos reprovados devem ver a mensagem: Que pena, você foi reprovado.
 */
+const nota1 = Number(pronpt("Insira a primeira nota"))
+const nota2 = Number(pronpt("Insira a segunda nota"))
+const nota3 = Number(pronpt("Insira a terceira nota"))
+
+let media = (nota1 + nota2 +nota3) / 3;
+
+if (media >=7) {
+  alert("Parabéns, você foi aprovado,aproveite suas férias!");
+} else if (media >= 5 && media <7) {
+  alert("Você está em recuperação!")
+}else {
+alert("Que pena! você foi reprovado")
+}
+
+
 
 /*
  5. Crie um algoritmo que receba dois números e some todos os números
